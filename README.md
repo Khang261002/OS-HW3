@@ -18,6 +18,10 @@ g++ -o HW3 HW3.cpp
 ./HW3
 ```
 6. The program will output the translated addresses along with page numbers and offsets.
+7. Modify or add new values to the map table. For example: add the code to the cpp file
+```cpp
+page_frame_table.mapPageToFrame(0x12, 0x32);
+```
 
 ## Functionality
 
