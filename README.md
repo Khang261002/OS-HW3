@@ -11,11 +11,11 @@ To execute the program, follow these steps:
 3. Navigate to the directory containing the source code in your terminal or command prompt.
 4. Compile the code using the C++ compiler. For example:
 ```
-g++ -o HW3 HW3.cpp
+g++ -o HW3.exe HW3.cpp
 ```
 5. Run the compiled executable:
 ```
-./HW3
+./HW3.exe
 ```
 6. The program will output the translated addresses along with page numbers and offsets.
 7. Modify or add new values to the map table. For example: add the code to the cpp file
